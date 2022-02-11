@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+     <style>
+body {
+  background-image: url('https://media.istockphoto.com/photos/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-picture-id1322292759?b=1&k=20&m=1322292759&s=170667a&w=0&h=FtcK2R11RjeMUkMUWu5kxFmYR8pY-G8OLs99PnWIJpE=');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+ button { 
+    padding: 0;
+    border: none;
+    background: none; 
+    margin-top: 100px;
+  }
+
+}
+ img { 
+    width: 400px;
+    margin-top: 100px; 
+  }
+
+  div { 
+    </style> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <title>Bitcoin Clicker</title>
+        <link rel="icon" href="https://i.imgur.com/6luyVWh.png" type="image/icon type">
+
+<body>
+
+    <div align="center"> 
+ <button type="button" onclick="hello()" class="unstyled-button">
+   <img src="https://i.imgur.com/6luyVWh.png" width="656" 
+     height="544"/>
+</button>
+
+
+    <script type="text/javascript">
+
+    var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+
+    <p style="font-family:'Courier New'"><font size="40"> <b>Bitcoin: <a id="clicks">0</a></b></font></p>
+
+</div>
+</body>
+</html>
